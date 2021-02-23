@@ -1,0 +1,33 @@
+@media screen and (min-width: 908px){
+
+    .wrapbox{
+        position: relative;
+    }
+    .videobox{
+        padding-bottom: 200px;
+    }
+    #carouselExampleControls{
+        width: 50%;
+        position: relative;
+        left: 50%;
+        margin-right: -50%;
+        transform: translateX(-50%);
+    }
+    video{
+        position: relative;
+        left: 50%;
+        margin-right: -50%;
+        transform: translateX(-50%);
+        width: 50%;
+    }
+}
+@media screen and (max-width: 908px){
+    video{
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .videobox{
+        padding-bottom: 150px;
+    }
+}

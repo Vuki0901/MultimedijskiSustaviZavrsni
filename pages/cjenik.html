@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Autoskola faks</title>
+        <link rel="stylesheet" href="../styles/header.css"/>
+        <link rel="stylesheet" href="../styles/cjenik.css"/>
+        <link rel="stylesheet" href="../styles/footer.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">  
+    </head>
+    <body>
+        <header>
+            <div class="mobile-header">
+                <button id="mobile-but" onclick="toggleMenu()">
+                    <img src="../assets/menu.svg" alt="menu" height=40 width=40/>
+                </button>
+                <a href="../index.html">
+                    <img class="logo" src="../assets/logo.svg" width=64 height=64/>                      
+                </a>
+              </div>
+            <nav id="sidebar" style="display: none">
+                <a href="./onama.html">O nama</a><br/>
+                <a href="./kontakt.html">Kontakt</a><br/>
+                <a href="./recenzije.html">Recenzije</a><br/>
+                <a href="./galerija.html">Galerija</a><br/>
+                <a href="./cjenik.html">Cjenik</a>
+            </nav>
+            
+            <nav class="default-nav">
+                <a href="../index.html">
+                    <img class="logo" src="../assets/logo.svg" width=100 height=100/>                  
+                </a>
+                <a href="./onama.html">O nama</a>
+                <a href="./kontakt.html">Kontakt</a>
+                <a href="./recenzije.html">Recenzije</a>
+                <a href="./galerija.html">Galerija</a>
+                <a href="./cjenik.html">Cjenik</a>
+            </nav>
+        </header>
+        <div class="content">
+            <h3>B Kategorija</h3>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Element</th>
+                        <th scope="col">Cijena</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ispit iz propisa</td>
+                        <td>150,00 kn</td>
+                    </tr>
+                    <tr>
+                        <td>Predavanje iz prve pomoći</td>
+                        <td>450,00kn</td>
+                    </tr>
+                    <tr>
+                        <td>Ispit iz prve pomoći</td>
+                        <td>118,75kn</td>
+                    </tr>
+                    <tr>
+                        <td>Ispit iz Upravljanja vozilom</td>
+                        <td>240,00kn</td>
+                    </tr>
+                    <tr>
+                        <td>Ispitni/dodatni sat iz Upravljanja vozilom</td>
+                        <td>160,00kn</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h5>Ukupna cijena tečaja za B kategoriju (30 sati za propise i 35 za upravljanje vozilom): 5695,00kn</h5>
+            <hr/>
+            <h3>A kategorija</h3>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Element</th>
+                        <th scope="col">Cijena</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ispit iz Upravljanja vozilom</td>
+                        <td>205,00kn</td>
+                    </tr>
+                    <tr>
+                        <td>Ispitni sat iz upravljanja vozilom</td>
+                        <td>190,00kn</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h5>Ukupna cijena za A kategoriju uz posjedovanje dozvole za B kategoriju: 2600,00kn</h5>
+        </div>
+        <footer class="container-fluid">
+            <div class="footer-box">
+                <p>Leo Vukoje, veljača 2021.<br />
+                Kolegij: Multimedijski Sustavi<br />
+                Odjel za Informatiku, Sveučilište u Rijeci
+            </p>
+            </div>
+        </footer>
+        <script type="text/javascript" src="../index.js"/>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    </body>
+</html>

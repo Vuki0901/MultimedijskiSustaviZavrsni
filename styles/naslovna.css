@@ -1,0 +1,14 @@
+#titleCard{
+    width: 80%;
+    position: relative;
+    top: 50px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-family: monospace;
+    border: none;
+}
+#titleCard img{
+    padding-top: 10px;
+}
